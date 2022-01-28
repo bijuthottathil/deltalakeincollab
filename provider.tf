@@ -15,3 +15,7 @@ provider "azurerm" {
   tenant_id       = "70c0f6d9-7f3b-4425-a6b6-09b47643ec58"
   features {}
 }
+resource "azurerm_resource_group" "app_grp"{
+  name="app-grpddd" 
+  location="North Europe"
+}
